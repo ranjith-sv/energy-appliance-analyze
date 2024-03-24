@@ -1,4 +1,11 @@
 In today's world, the use of energy is quickly expanding. We are experiencing a lack of energy as a result of increased energy consumption in some regions of the world, which is causing environmental damage. We are dealing with excessive energy consumption in home appliances in some places, so our main goal in this project is to analyze what factors are influencing the increasing energy consumption of home appliances, how we can reduce energy consumption of home appliances, and analyze energy consumption of appliances using  python moduels. This project will analyze the Energy dataset using visualizations and graphs created with Python packages such as pandas,numpy, matplotlib, Seaborn, etc
 
+** Problem Statement**
+
 For approximately 4.5 months, the data set is set to 10 minutes. A ZigBee wireless sensor network was used to monitor the house's temperature and humidity levels. Every wireless node reported the temperature and humidity levels every 3.3 minutes. The wireless data was then averaged over 10 minute periods. The energy data was recorded every 10 minutes using m-bus energy metres.
 
+Weather from the nearest airport weather station (Chievres Airport, Belgium) was collected from a public data set from Reliable Prognosis (rp5.ru) and blended with the experimental data sets using the date and time columns. Two random variables were included in the data set to test the regression models and to filter out non-predictive features (parameters).
+
+The problem statement is to create a machine learning model that can accurately forecast energy usage based on the supplied features. This might be valuable for building managers, energy firms, and policymakers who need to optimize energy consumption, cut costs, and minimize the environmental impact of energy usage.
+
+Specifically, the model should be able to reliably anticipate energy usage based on the different elements that influence energy consumption, such as temperature, humidity, illumination, and time of day. This can assist building managers and energy firms in identifying patterns and trends in energy consumption and making informed energy decisions, such as altering HVAC settings, optimizing lighting, or introducing energy-efficient solutions. Policymakers can also use this data to create regulations and incentives that encourage energy efficiency and sustainability.
